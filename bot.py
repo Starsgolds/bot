@@ -32,4 +32,4 @@ def send_results():
 if __name__ == "__main__":
     while True:
         send_results()
-        time.sleep(1800)  # каждые 30 минут
+        time.sleep(60)  # каждые 30 минут
